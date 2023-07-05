@@ -1,0 +1,21 @@
+.slider__wrapper img {
+  width: 300px;
+}
+
+.slick-prev::before {
+  content: "";
+  height: 50px;
+  width: 50px;
+  display: block;
+  opacity: 1;
+  background: url("https://www.tourmyindia.com/imgnew/left-arrow-pink.svg") no-repeat center;
+}
+
+.slick-next::before {
+  content: "";
+  height: 38px;
+  width: 38px;
+  display: block;
+  opacity: 1;
+  background: url("https://www.tourmyindia.com/imgnew/small-right-arrow-pink.svg") no-repeat center;
+}
